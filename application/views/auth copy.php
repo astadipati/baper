@@ -39,22 +39,17 @@
 					</span>
 				</div>
 				<form action="<?=site_url('auth/process')?>" method="post">
-				<!-- <form class="login100-form validate-form"> -->
-					<div class="wrap-input100 validate-input m-b-26" name="username" data-validate="Username is required">
-						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="username" placeholder="Enter username" required>
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="wrap-input100 validate-input m-b-18" name="password" data-validate = "Password is required">
-						<span class="label-input100">Password</span>
-						<input class="input100" type="password" name="password" placeholder="Enter password" required>
-						<span class="focus-input100"></span>
-					</div>
-
-					<div class="container-login100-form-btn">
+				<div class="form-group has-feedback">
+					<input type="text" name="username" class="form-control" placeholder="User Name" required>
+					<span class="glyphicon gliphicon-envelope form-control-feedback"></span>
+				</div>
+				<div class="form-group has-feedback">
+					<input type="password" name="password" class="form-control" placeholder="password" required>
+					<span class="glyphicon gliphicon-envelope form-control-feedback"></span>
+				</div>
+				<div class="row">
 					<button type="submit" name="login" class="btn btn-primary">Login</button>
-					</div>
+				</div>
 				</form>
 			</div>
 		</div>
