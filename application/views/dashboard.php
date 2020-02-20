@@ -15,6 +15,10 @@
       <div class="container-fluid">
         <!-- Small boxes (Stat box) -->
       Bagian dashboard
+</br>
+      <?php
+print_r($_SESSION);
+?>
         <!-- /.row (main row) -->
       </div><!-- /.container-fluid -->
     </section>

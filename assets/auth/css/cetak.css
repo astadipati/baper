@@ -1,0 +1,44 @@
+.bordered{
+    border: 1px solid #000; 
+    border-collapse: collapse; 
+    font-size:12px;
+} 
+table.bordered tr td{
+    border: 1px solid #000; 
+    border-collapse: collapse; 
+} 
+table.bordered thead tr td{
+    text-align: center; 
+    font-weight: bold; 
+} 
+.tengah,.no{
+    text-align: center;
+}
+.rata_kanan{
+    text-align: right;
+}
+.float-left {
+  float: left !important;
+}
+
+.float-right {
+  float: right !important;
+}
+td.rotate {
+  height: 180px;
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+td.rotate > div {
+  margin-bottom:-10px; 
+  transform: 
+    rotate(270deg);
+  width: 10px;
+  padding-top: 25px;
+}
+tr.isi {
+    height: 500px;
+    page-break-inside:avoid; 
+    page-break-after:auto;
+    vertical-align: top;
+}
