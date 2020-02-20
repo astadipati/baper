@@ -159,7 +159,7 @@
     <a href="index3.html" class="brand-link">
       <img src="<?php echo base_url()?>assets/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
-      <span class="brand-text font-weight-light">AdminLTE 3</span>
+      <span class="brand-text font-weight-light">B A P E R  1.0</span>
     </a>
 
     <!-- Sidebar -->
@@ -170,7 +170,7 @@
           <img src="<?php echo base_url()?>assets/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block"><?=ucfirst($this->islogin->user_login()->fullname)?></a>
         </div>
       </div>
 
@@ -188,6 +188,11 @@
               </p>
             </a>
           </li>
+          <?php
+          // $a = array ("1","10","20","30","430","431","500","1000","1002","1003","1010","1011","1012","1013") ;
+          // $arrlength = count($a);
+          // for($x = 0; $x < $arrlength; $x++);
+          // if($this->session->userdata('group_id') == $x  ){ ?>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
@@ -222,9 +227,10 @@
                   <p>Lihat Log</p>
                 </a>
               </li>
-              
             </ul>
           </li>
+
+
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
@@ -262,6 +268,13 @@
               
             </ul>
           </li>
+
+
+          <?php
+          // $c = array ("1003","1") ;
+          // $arrlength = count($c);
+          // for($z = 0; $z < $arrlength; $z++);
+          if($this->session->userdata('group_id') == 1003  ){ ?>
           <li class="nav-item has-treeview">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-copy"></i>
@@ -296,9 +309,10 @@
                   <p>Lihat Log</p>
                 </a>
               </li>
-              
             </ul>
           </li>
+          <?php }?>
+
 
           <li class="nav-header">Setting</li>
         
@@ -352,7 +366,7 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2019 <a href="http://adminlte.io">AdminLTE.io</a>.</strong>
+    <strong>Copyright &copy; 2019 <a href="http://pa-tuban.go.id">pa-tuban</a>.</strong>
     All rights reserved.
     <div class="float-right d-none d-sm-inline-block">
       <b>Version</b> 3.0.2
