@@ -8,6 +8,7 @@ class Login extends CI_Controller {
 	}
 
 	public function signin(){
+		sudah_login();
 		$this->load->model('user_m','mymodel');
 		$sessid = '';
 		while (strlen($sessid) < 32)
@@ -54,11 +55,6 @@ class Login extends CI_Controller {
 				'user_agent'	=> substr($this->input->user_agent(), 0, 120),
 				'last_activity'	=> time(),
 			);
-
-			echo "<script>
-			alert('Login Sukses');
-			window.location='".site_url('dashboard')."';
-			</script>";
 			$this->session->set_userdata($user);
 			redirect('/dashboard');
 		  }

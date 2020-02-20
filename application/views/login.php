@@ -5,7 +5,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>APS Badilag - Login</title>
+  <title>Baper - Login</title>
   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/auth/css/login_style.css">
   <!-- endinject -->
   <link rel="shortcut icon" href="<?php echo base_url(); ?>assets/auth/images/favicon.ico" />
@@ -64,20 +64,6 @@
   </div>
   <!-- container-scroller -->
 
-  <script src="<?php echo base_url()?>assets/auth/vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script href="<?php echo base_url()?>assets/auth/vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-	<script href="<?php echo base_url()?>assets/auth/vendor/bootstrap/js/popper.js"></script>
-	<script href="<?php echo base_url()?>assets/auth/vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script href="<?php echo base_url()?>assets/auth/vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script href="<?php echo base_url()?>assets/auth/vendor/daterangepicker/moment.min.js"></script>
-	<script href="<?php echo base_url()?>assets/auth/vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-	<script href="<?php echo base_url()?>assets/auth/vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
 	<script src="js/main.js"></script>
 
   <!-- plugins:js -->
