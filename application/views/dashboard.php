@@ -17,7 +17,7 @@
       Bagian dashboard
 </br>
       <?php
-print_r($_SESSION);
+print_r($_SESSION); 
 ?>
         <!-- /.row (main row) -->
       </div><!-- /.container-fluid -->
